@@ -28,7 +28,7 @@ proto.remove = function (obj) {
 };
 
 proto.has = function (obj) {
-	return ~indexof(this.objs, obj);
+	return !!~indexof(this.objs, obj);
 };
 
 proto.call = function (method) {
