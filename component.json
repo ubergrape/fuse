@@ -1,0 +1,18 @@
+{
+	"name": "fuse",
+	"repo": "darsain/fuse",
+	"description": "Fuse objects and call methods on all of them simultaneously.",
+	"version": "1.0.0",
+	"keywords": [
+		"object",
+		"fuse"
+	],
+	"dependencies": {
+		"darsain/constructor-apply": "*",
+		"component/indexof": "*"
+	},
+	"scripts": [
+		"index.js"
+	],
+	"license": "MIT"
+}
