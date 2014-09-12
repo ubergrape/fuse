@@ -31,7 +31,7 @@ Creates a `Fuse` instance with passed objects inside. `new` keyword is optional.
 
 Automatically filters out duplicates.
 
-**objN** `Object` Pass similar objects to fuse.
+- **objN** `Object` Pass similar objects to fuse.
 
 ### #add(obj)
 
@@ -45,19 +45,21 @@ Remove object from fusion.
 
 Check whether `obj` is part of the fusion.
 
+*Returns* `Boolean`
+
 ### #call(name, [arg1], ..., [argN])
 
 Call method on all fused objects.
 
-**name** `String` Method name.
-**argN** `Mixed` Arguments to be passed to methods.
+- **name** `String` Method name.
+- **argN** `Mixed` Arguments to be passed to methods.
 
 ### #apply(name, [args])
 
 Apply method on all fused objects.
 
-**name** `String` Method name.
-**args** `Array` Arguments of arguments to be passed to methods.
+- **name** `String` Method name.
+- **args** `Array` Arguments of arguments to be passed to methods.
 
 ## License
 
