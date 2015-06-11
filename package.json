@@ -1,0 +1,15 @@
+{
+	"name": "fuse",
+	"description": "Fuse objects and call methods on all of them simultaneously.",
+	"version": "1.0.0",
+	"keywords": [
+		"object",
+		"fuse"
+	],
+	"dependencies": {
+		"constructor-apply": "ubergrape/constructor-apply",
+		"indexof": "npmcomponent/component-indexof"
+	},
+	"main": "index.js",
+	"license": "MIT"
+}
